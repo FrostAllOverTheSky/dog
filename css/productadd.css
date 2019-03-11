@@ -1,0 +1,43 @@
+div.addProduct{
+  width:1000px;
+  height:900px;
+ 
+  float:left;
+  margin-top:20px;
+  margin-left:20px;
+}
+div.addProduct>div.title{
+  width:90%;
+  height:40px;
+  padding-left: 20px;
+  box-sizing:border-box;
+  line-height:40px;
+  font-size:20px;
+  border-bottom:1px solid #ddd;
+  margin-bottom:20px;
+}
+div.addProduct>form{
+  width:90%;
+  margin:auto;
+}
+div.addProduct>form>div{
+  width:100%;
+}
+div.addProduct>form>div>div{
+  width:100%;
+  height:60px;
+  font-size:18px;
+  text-align:center;
+}
+div.addProduct>form>div>div>input{
+  width:70%;
+  height:40px;
+   font-size:18px;
+   padding-left:10px;
+   box-sizing:border-box;
+}
+div.addProduct>form>div>div>button{
+  width:100px;
+  height:40px;
+  margin:20px auto;
+}

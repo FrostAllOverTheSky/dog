@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>狗狗挑选</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/dog_select.css">
+</head>
+<body>
+    <div id="header"></div>
+	<div class="main">
+	
+	  <div>
+	    <div class="location">
+			<a href="">
+				<span class="c1"><b>郑州市</b>淘狗网</span>
+				<span> > > </span>
+				<span class="c2"><b>郑州市</b>宠物狗</span>
+			</a>
+	    </div>
+		<div class="search_dog">
+		  <div class="sort">
+		    找狗狗
+		  </div>
+		  <input type="text" placeholder="请输入关键字" id="keyWord">
+		  <div class="img"><a href=""><img src="img/index/search.png" alt="" id="search"></a></div>
+		</div>	
+	    <div class="options">
+		  <div>
+		    <span>区域:</span>
+		    <span><a href="">不限</a></span>
+		    <span><a href="">中原区</a></span>
+			<span><a href="">二七区</a></span>
+			<span><a href="">管城回族区</a></span>
+			<span><a href="">金水区</a></span>
+			<span><a href="">上街区</a></span>
+			<span><a href="">惠济区</a></span>
+			<span><a href="">中牟县</a></span>
+			<span><a href="">巩义市</a></span>
+			<span><a href="">荥阳市</a></span>
+			<span><a href="">新密市</a></span>
+			<span><a href="">新郑市</a></span>
+			<span><a href="">登封市</a></span>
+		  </div>
+		  <div>
+		    <span>体型:</span>
+			<span><a href="">不限</a></span>
+			<span><a href="">小型犬</a></span>
+			<span><a href="">中型犬</a></span>
+			<span><a href="">大型犬</a></span>
+		  </div>
+		  <div class="kinds" style="height:60px">
+		    <span >犬种:</span>
+		    <span><a href="">不限</a></span>
+			<span><a href="">泰迪</a></span>
+			<span><a href="">金毛</a></span>
+			<span><a href="">拉布拉多</a></span>
+			<span><a href="">哈士奇</a></span>
+			<span><a href="">比熊</a></span>
+			<span><a href="">博美</a></span>
+			<span><a href="">萨摩耶</a></span>
+			<span><a href="">边境牧羊犬</a></span>
+			<span><a href="">贵宾犬</a></span>
+			<span><a href="">茶杯犬</a></span>
+			<span><a href="">阿拉斯加</a></span>
+			<span><a href="">松狮</a></span>
+			<span><a href="">雪纳瑞</a></span>
+			<span><a href="">吉娃娃</a></span>
+			<span><a href="">藏獒</a></span>
+			<span><a href="">德国牧羊犬</a></span>
+			<span><a href="">法国斗牛犬</a></span>
+			<span><a href="">柯基犬</a></span>
+			<span><a href="">巨型贵宾犬</a></span>
+			<span><a href="">秋田犬</a></span>
+			<span><a href="">高加索</a></span>
+			<span><a href="">杜宾犬</a></span>
+			<span><a href="">柴犬</a></span>
+			<span><a href="">牛头梗</a></span>
+		  </div>
+		  <div>
+		    <span>年龄:</span>
+			<span><a href="">不限</a></span>
+			<span><a href="">3月龄以下</a></span>
+			<span><a href="">3-5月龄</a></span>
+			<span><a href="">5-12月龄</a></span>
+			<span><a href="">1岁以上</a></span>
+		  </div>
+		  <div>
+		    <span>价格:</span>
+			<span><a href="">不限</a></span>
+			<span><a href="">2000-3000</a></span>
+			<span><a href="">3000-4000</a></span>
+			<span><a href="">4000-5000</a></span>
+			<span><a href="">5000元以上</a></span>
+			<span><a href=""></a></span>
+		  </div>
+		  <div>
+		    <span>疫苗:</span>
+			<span><a href="">不限</a></span>
+			<span><a href="">未做</a></span>
+			<span><a href="">1针</a></span>
+			<span><a href="">2针</a></span>
+			<span><a href="">3针</a></span>
+		  </div>
+		</div>
+	    <div class="main_body">
+		  <div class="merchant"><span>商家</span><span>商家推广服务热线：<b     style="color:red;font-size:18px;">027-65389586</b></span>
+		  </div>	
+		  <ul class="list">
+		  </ul>
+		</div>
+		<ul id="pages" class="clear">
+          <!--<li class="previous ">下一页</li> -->
+          <!--<li class="current">1</li> -->
+          <!--<li class="next">上一页</li> -->
+		</ul>
+	  </div>
+	</div>
+	<div id="footer"></div>
+	<script src="js/common.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/dog_select.js"></script>
+<!-- 	<script src="js/pages.js"></script> -->
+	 <script src="js/jquery-1.11.3.js"></script>
+	<script>
+	  $("#header").load("header.html");
+	</script>
+	<script>
+	  $("#footer").load("footer.html");
+	</script>
+</body>
+</html>

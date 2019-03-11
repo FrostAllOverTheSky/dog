@@ -1,0 +1,201 @@
+/*头部*/
+#header{
+  width:100%;
+  height:70px;
+  position:relative;
+  background:#f25628;
+   font-size:24px;
+   color:#fff;
+}
+#header>div.welcome{
+  position:absolute;
+  left:20px;
+  top:20px;
+}
+#header>div.super_father{
+   width:200px;
+}
+#header>div.super_father>div.super{
+   width:200px;
+   height:70px;
+   position:absolute;
+  right:120px;
+  top:0px;
+  cursor:pointer;
+  line-height:70px;
+}
+#header>div.super_father>ul.super_main{
+  position:absolute;
+  right:155px;
+  top:60px;
+  width:200px;
+ height:0;
+ transition:all .5s linear;
+ overflow:hidden;
+}
+#header>div.super_father>ul.open{
+  height:150px;
+  z-index:10;
+}
+#header>div.super_father>ul.super_main>li{
+   width:200px;
+  height:50px;
+  text-align:center;
+  background:#f25618;
+}
+#header>div.super_father>ul.super_main>li:hover a{
+  color:black;
+}
+#header>div.super_father>ul.super_main>li>a{
+  color:#fff;
+}
+#header>div.sigout{
+  position:absolute;
+  right:20px;
+  top:20px;
+}
+#header>div.sigout>a{
+  cursor:pointer;
+}
+/*主体部分*/
+div.main_body{
+  position:relative;
+  width:100%;
+}
+div.main_body>div.list{
+margin-top:20px;
+  width:150px;
+  height:900px;
+  background:#f25618;
+  float:left;
+}
+div.main_body>div.list>div:first-child{
+  width:150px;
+  height:100px;
+  font-size:18px;
+  color:#fff;
+  line-height:100px;
+   box-sizing:border-box;
+  padding-left:10px;
+}
+div.main_body>div.list>div:first-child+div{
+  width:150px;
+  height:50px;
+  padding-left:10px;
+  box-sizing:border-box;
+  line-height:50px;
+  
+}
+div.main_body>div.list>div:first-child+div>a{
+font-size:20px;
+ color:#fff;
+}
+/*数据管理,内容管理*/
+div.main_body>div.list>div{
+  width:100%;
+  height:30px;
+  font-size:20px;
+  color:#fff;
+  line-height:30px;
+   padding-left:10px;
+  box-sizing:border-box;
+  cursor:pointer;
+  margin-bottom:10px;
+}
+div.main_body>div.list>div.data+ul{
+  margin-bottom:40px;
+}
+div.main_body>div.list>div+ul{
+  width:100%;
+  height:200px;
+}
+div.main_body>div.list>div+ul>li{
+  width:100%;
+/*  height:160px;*/
+   padding-left:10px;
+   box-sizing:border-box;
+   color:#fff;
+   font-size:18px;
+   text-align:center;
+}
+div.main_body>div.list>div+ul>li>span{
+  cursor:pointer;
+}
+div.main_body>div.list>div+ul>li>ul{
+  width:100%;
+  height:0px;
+  transition:all .5s linear;
+  overflow:hidden;
+}
+div.main_body>div.list>div+ul>li>span{
+  display:inline-block;
+  width:80%;
+  height:30px;
+}
+div.main_body>div.list>div+ul>li>span.open{
+text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+box-shadow:rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+div.main_body>div.list>div+ul>li>span.open+ul{
+  height:160px;
+}
+div.main_body>div.list>div+ul>li>ul>li{
+  height:50px;
+  line-height:50px;
+}
+div.main_body>div.list>div+ul>li>ul>li>a{
+  color:#000;
+  font-size:16px;
+}
+div.main_body>div.list>div+ul>li>ul>li:hover>a{
+  color:#fff;
+}
+/*右侧显示数据*/
+div.main_body>div.datashow{
+  width:89%;
+  height:900px;
+  position:absolute;
+  left:10%;
+  top:0;
+}
+div.main_body>div.datashow>div.topdata{
+  width:100%;
+  height:450px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+div.main_body>div.datashow>div.topdata>div{
+  width:33%;
+  height:200px;
+   border-right:1px solid #f25618;
+}
+div.main_body>div.datashow>div.topdata>div>p{
+ 
+  text-align:center;
+  height:40px;
+}
+div.main_body>div.datashow>div.topdata>div>p:first-child{
+  color:#f25618;
+  margin-top:10px;
+}
+div.main_body>div.datashow>div.topdata>div>p:first-child+p{
+  color:#1ABB9C;
+  font-size:40px;
+  font-weight:bold;
+}
+div.main_body>div.datashow>div.topdata>div>p:last-child{
+  color:red;
+  margin-top:20px;
+}
+div.main_body>div.datashow>div.bottomdata{
+  width:100%;
+  height:450px;
+}
+div.main_body>div.datashow>div.bottomdata>div{
+  font-size:29px;
+  height:30px;
+  color:#f25618;
+  margin-top:5px;
+  line-height:30px;
+}

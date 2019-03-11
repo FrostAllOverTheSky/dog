@@ -1,0 +1,93 @@
+#ggbk{
+	width:1300px;
+	margin:0 auto;
+	min-width:1300px;
+}
+#ggbk_nav{
+	height:40px;
+	line-height:40px;
+	font-size:25px;
+	color:#666;
+	margin:10px 0px;
+	border-bottom:1px solid #928c8c; 
+}
+#ggbk>div:nth-child(2)>p{
+	border-bottom:1px dashed #ddd;
+	padding:6px 0;
+	position:relative;
+}
+#ggbk>div:nth-child(2)>p>span{
+	width:80px;
+	padding-top:5px;
+	color:#333;
+	font-size:15px;
+	display:inline-block;
+}
+#ggbk>div:nth-child(2)>p>a{
+	color:#333;
+	font-size:15px;
+	padding:5px 12px;
+}
+#ggbk>div:nth-child(2)>p>a:nth-child(2){
+	background-color:#fe8431;
+	color:#fff;
+	border-radius:3px;
+}
+#ggbk>div:nth-child(2)>p>a:nth-child(2)~a:hover{
+	color:#ff9900;
+}
+/****************品种介绍**************************/
+.breed_content{
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.breed_cla{
+	/*width:310px;*/
+	min-width:310px;
+	max-width:350px;
+	min-height:86px;
+	/*max-height:120px;*/
+	/*height: 86px;*/
+	margin:5px 0px;
+	font-size:14px;
+	box-sizing:border-box;
+}
+.breed_content>li>.dog_img{
+	/*margin-right:10px;*/
+	margin-top:3px;
+	width:25%;
+	height:80px;
+}
+.breed_content>li.dog_par{
+	width:73%;
+	height:86px;
+}
+.dog_name{
+	margin:10px 0px 5px 0px;
+}
+.dog_ency{
+	margin-top:13px;
+	font-weight:bold;
+	font-size:15px;
+}
+.dog_par>.dog_ency>a{
+	color:inherit;
+}
+/*.cor1{*/
+/*	background-color:#ffe7e5;*/
+/*	color:#df879c;*/
+/*}*/
+/*.cor2{*/
+/*	background-color:#e5f0ff;*/
+/*	color:#7695ce;*/
+/*}*/
+/*.cor3{*/
+/*	background-color:#fff9ec;*/
+/*	color:#e19b59;*/
+/*}*/
+/*.cor4{*/
+/*	background-color:#f2e5ff;*/
+/*	color:#9989bc;*/
+/*}*/

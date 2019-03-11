@@ -1,0 +1,25 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre,header,footer{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:black;
+  
+}
+a:hover{
+ color:#F5581A;
+}
+#main{
+  margin:0 auto;
+}
+body{
+  background-color:#EDECEC;
+  width:100%;
+}
+.clear{
+  display:block;
+  content:"";
+  clear:both;
+}

@@ -1,0 +1,166 @@
+/*整个页面*/
+	#main{
+	width:77%;
+	margin:100px auto 0;
+	}		
+/*上：导航*/
+	#main ul.nav{
+	height:35px;
+	border-bottom:1px solid #999;
+	}
+	ul.nav li:not(:last-child){
+	margin-right:15px;
+	font-size:15px;
+	}
+	ul li span,ul li a{
+	color:#666;
+	}
+	ul li.rf>a{
+	color:#3889C3;
+	font-size:16px;
+	}
+/*给主要内容变成一个容器*/
+	#section{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	}
+/*设置左边设置宽度的占比*/
+	#section .product-list{
+	width:75%;
+	position:relative;
+	}
+/*产品列表*/
+	#section div.product-list div.top{
+	width:100%;
+	padding-bottom:10px;
+	border-bottom:1px solid #999;
+	}
+	#section div.product-list div.tu img{
+	width:200px;
+	height:150px;
+	margin-top:10px;
+	}
+	div.product-list div.wen h2{
+	color:#000;
+	font-weight:normal;
+	}
+	div.product-list div.wen div span{
+	color:#666;
+	font-size:13px;
+	}
+	div.product-list div.wen p{
+	font-size:14px;
+	margin:20px 0;
+	}
+	div.product-list div.wen div{
+	margin-top:5px;
+	}
+	div.product-list div.wen{
+	width:600px;
+	height:150px;
+	margin-left:10px;
+	}
+/*产品页码*/
+	#section  div.product-list div.page{
+	width:100%;
+	margin-left:20px;
+	font-size:13px;	
+	position:absolute;
+	bottom:-53px;
+	right:-280px;
+	}
+	
+	#section div.page a{
+	  display:inline-block;
+	   width:60px;
+	   height:30px;
+	   border:1px solid #f25618;
+	   font-size:18px;
+	   color:black;
+	   text-align:center;
+	   line-height:30px;
+	   border-radius:10px;
+	   margin-left:15px;
+	  
+	}
+	
+/*右边的产品详情*/
+  #section .jianjie{
+	width:24%;
+	}	
+ /*上热门宠物*/
+  #section .jianjie>h3{
+		text-align:center;
+		font-weight:normal;
+		font-size:18px;
+		padding-bottom:10px;
+		border-bottom:1px solid #999;
+		}
+ .breed_content{
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:352px;
+}
+.breed_content li.cla1{background-color:#ffe7e5;color:#df879c}
+.breed_content li.cla2{background-color:#e5f0ff;color:#7695ce}
+.breed_content li.cla3{background-color:#fff9ec;color:#e19b59}
+.breed_content li.cla4{background-color:#f2e5ff;color:#9989bc}
+.breed_cla{
+	width:352px;
+	height: 86px;
+	margin:5px 0px;
+	font-size:14px;
+	box-sizing:border-box;
+}
+.breed_content>li>.dog_img{
+	margin-right:40px;
+}
+.dog_name{
+	margin:6px 0px 5px 0px;
+}
+.dog_ency{
+	margin-top:13px;
+	font-weight:bold;
+	font-size:15px;
+}
+.dog_par>.dog_ency>a{
+	color:inherit;
+}
+ /*****************************************************************************/
+/*热门文章*/
+	#section .jianjie h3{
+	text-align:center;
+		font-weight:normal;
+		font-size:18px;
+		padding-bottom:10px;
+		border-bottom:1px solid #999;
+	}
+	#section .jianjie .right_bottom{
+	 width:100%;
+	 display:flex;
+	 justify-content:space-between;
+	 border-bottom:1px solid #999;
+	 padding-bottom:5px;
+	 padding-top:7px;
+	 }
+	 #section .jianjie .right_bottom .tu img{
+	 width:95px;
+	 height:65px;
+	 }
+	 #section .jianjie .right_bottom .wen{
+	 width:180px;
+	 height:65px;
+	 font-size:14px;
+	 color:#333;
+	 }
+	 #section .jianjie .right_bottom .wen a{
+	 color:#333;
+	 }
+	 #section .jianjie .right_bottom .wen span{
+	 font-size:14px;
+	 color:#999;
+	 }
+/*	 分页*/

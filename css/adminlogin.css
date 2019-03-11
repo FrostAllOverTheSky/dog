@@ -1,0 +1,81 @@
+body{
+  padding:0;
+  margin:0;
+ 
+}
+#main{
+ background:#fff;
+ min-width:1000px;
+}
+/*头部*/
+#header2{
+  width:100%;
+  height:100px; 
+}
+/*表单*/
+div.adminForm{
+  width:600px;
+  height:600px;
+ border:1px solid red;
+ margin:120px auto 20px;
+}
+div.adminForm>form input{
+  font-size:24px;
+  padding-left:10px;
+  box-sizing:border-box;
+}
+div.adminForm>form>p{
+  width:600px;
+  height:60px;
+  margin:60px 40px;
+  font-size:24px;
+  
+}
+div.adminForm>form>p>input>span{
+  display:block;
+  padding-bottom:10px;
+}
+div.adminForm>form>p>input{
+  width:500px;
+  height:60px;
+}
+div.adminForm>form>#check-code{
+  width:600px;
+  height:60px;
+  position:relative;
+}
+div.adminForm>form>#check-code>input{
+  width:200px;
+  height:60px;
+  position:absolute;
+  right:100px;
+}
+div.adminForm>form>#check-code>#data_code{
+  width:200px;
+  height:60px;
+  font-size:40px;
+   position:absolute;
+ left:40px;
+ text-align:center;
+ line-height:60px;
+ border:1px solid #ff9900;
+}
+div.adminForm>form>#check-code>p.change{
+  width:200px;
+  height:20px;
+  position:absolute;
+  left:50px;
+  top:75px;
+}
+div.adminForm>form>p>#btn{
+  margin-top:20px;
+}
+/*图片*/
+#label{
+  width:300px;
+  height:393px;
+  
+  position:absolute;
+  right:180px;
+  top:320px;
+}

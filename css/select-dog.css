@@ -1,0 +1,188 @@
+/*最上面一行样式*/
+*{
+	margin:0;
+	padding:0;
+}
+#main{
+	width:1200px;
+	margin:0 auto;
+	font-family:"微软雅黑";
+	background:#fff;
+	padding-left:10px;
+	box-sizing:border-box;
+	padding-right:10px;
+	width:90%;
+}
+/* 上面一行字 */
+#d1{
+	width:1200px;
+	height:30px;
+	position:relative;
+	border-bottom:1px solid #ddd; 
+}
+#d1 span{
+		font-size:18px;
+		color:#666;
+		position:absolute;
+}
+a{
+	text-decoration:none;
+}
+span:nth-child(1) a{
+	color:#666;
+}
+span:nth-child(2){
+	left:59px;
+}
+span:nth-child(3){
+	left:80px;
+}
+span:nth-child(4){
+	right:30px;	
+}
+span:nth-child(4) a{
+	color:#3889C3
+}
+/*左边商品列表*/
+#show-list li{
+	width:900px;
+	height:180px;
+	position:relative;
+	border-bottom:1px solid #ddd;                          
+}
+#show-list li img{
+	width:200px;
+	height:150px;
+	position:absolute;
+	top:15px;
+}
+#show-list li #three{
+	width:685px;
+	height:150px;	
+	position:absolute;
+	top:15px;
+	left:210px;
+}
+#three .t1{
+	font-size:21px;
+	color:#333;
+	margin-bottom:20px;
+}
+#three .t2{
+	font-size:14px;
+	color:#333;
+	margin-top:30px;
+}
+#three .t3{
+	margin-top:30px;
+	font-size:12px;
+	color:#999;
+}
+#three .t3 span{
+	margin-left:10px;
+}
+
+/*下面分页*/
+#pages{
+	width:900px;
+	height:40px;
+	text-align:center;
+	margin-top:25px;
+}
+#pages a{
+	display:inline-block;
+	font-size:14px;
+	color:#5188A6;
+	margin:0 5px;
+	height:20px;
+}
+#pages a:nth-child(2){
+	background:#ff552e;
+	padding:0 5px;
+}                                  
+#product-list{                  /*右边热门*/
+	position:relative;
+}
+#hot{
+	width:290px;
+	height:1200px;
+	position:absolute;
+	top:5px;
+	right:0px;
+}
+#hot>p{
+	text-align:center;
+	border-bottom:1px solid #ddd;
+	padding:18px;
+	width:250px;
+	height:20px;
+}
+li{
+	list-style:none;
+	display:flex;
+}
+#hot-dog li{
+	height:90px;
+	width:290px;
+	margin-top:10px;
+}
+#hot-dog li img{
+	width:80px;
+	height:80px;
+	margin-top:5px;
+}
+#three3 .t5{
+	color:#DF879C;
+	font-size:12px;
+}
+#three3 p{
+	margin:10px 0 0 5px;
+}
+#three3 .t6 a{
+	margin-right:5px;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:10px;
+}
+#hot-dog li:nth-child(1){
+	background:#ffe7e5;
+}
+#hot-dog li:nth-child(2){
+	background:#e5f0ff;
+}
+#hot-dog li:nth-child(3){
+	background:#fff9ec;
+}
+#hot-dog li:nth-child(4){
+	background:#f2e5ff;
+}
+#hot-dog li:nth-child(5){
+	background:#ffe7e5;
+}
+#hot-dog li:nth-child(6){
+	background:#e5f0ff;
+}
+/*热门文章*/
+#hot-article li{
+	width:280px;
+	height:90px;
+	border-bottom:1px solid #ddd; 
+}
+#hot-article li img{
+	width:80px;
+	height:65px;
+	margin-top:10px;
+}
+#two{
+	float:left;
+}
+#two .p1{
+	font-size:14px;
+	color:#333;
+	margin:10px 0 0 10px;
+}
+#two .p2{
+	font-size:12px;
+	color:#999;
+	margin:10px 0 0 10px;
+}

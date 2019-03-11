@@ -1,0 +1,271 @@
+#header{
+  min-width:1000px;
+/*  max-width:1200px;*/
+  min-height:100px;
+  margin:auto;
+  width:100%;
+}
+.wrap{
+  width: 100%;
+}
+div.header_top{
+background:#292c33;
+font-size:13px;
+color:#eff4ff;
+height:30px;
+line-height:30px;
+}
+div.header_top ul li a{
+  padding:0 20px;
+}
+div.header_top span.title{
+  display:inline-block;
+  margin-left:20px;
+}
+div.header_top span.title a:hover{
+  color:#fff;
+}
+ div.header_top ul {
+  margin-right:20px;
+}
+div.header_top a{
+  color:#fff;
+}
+div.header_top  a:hover{
+color:#ff9900;
+}
+div.header_index{
+  height:70px;
+  background:#fff;
+  position:relative;
+}
+div.header_index div.logol{
+  width:180px;
+  height:70px;
+ background-color: #f25618;
+ margin-left:20px;
+ box-sizing:border-box;
+ padding-top:10px;
+}
+div.header_index div.logol p{
+ margin-left:40px;
+
+ }
+ /* ��ַ */
+ div.header_index div.city_selector:hover div.select_wrap{
+   display:block;
+ }
+ div.header_index div.city_selector p.city a:hover{
+ color:#ff9900;
+ }
+ div.header_index div.city_selector:hover  p.city i{
+   border-color:transparent;
+   border-bottom-color:#ff9900;
+   position:relative;
+   top:-3px;
+ }
+ div.header_index div.city_selector p.city i{
+  border:6px solid transparent;
+  border-top-color:#ddd;
+  display:inline-block;
+  position:relative;
+  top:3px;
+  margin-left:5px;
+ }
+ div.header_index div.city_selector p{
+ font-size:14px;
+ margin-left:40px;
+ margin-top:10px;
+ }
+div.header_index div.city_selector div.select_wrap {
+  border:1px solid #e5e5e5;
+  width:322px;
+  background:#fff;
+  height:450px;
+  position:absolute;
+  left:8%;
+  box-sizing:border-box;
+  padding:15px 20px;
+  z-index:999;
+  overflow:auto;
+  display:none;
+} 
+/*div.header_index  div.city_selector  div.select_wrap:hover{*/
+/*  z-index:1000;*/
+/*}*/
+div.header_index  div.city_selector  div.select_wrap div.search_wrap input{
+  width:180px;
+  height:30px;
+  padding-left:5px;
+  font-size:14px;
+  border:1px solid #e5e5e5;
+  font-family: sans-serif;
+}
+div.header_index  div.city_selector  div.select_wrap div.search_wrap div{
+  float:right;
+  width:69px;
+  height:30px;
+  background:#f25719;
+  border-radius:6px;
+  text-align:center;
+  line-height:30px;
+  position:relative;
+  left:0px;
+  color:#f5f5f5;
+  top:2px;
+}
+div.header_index  div.city_selector  div.select_wrap div.search_wrap div a{
+  color:#fff;
+}
+/*div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap{*/
+/*z-index:1000;*/
+/*}*/
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.searchCity_hot li{
+  float:left;
+  color:#ddd;
+  font-size:13px;
+  padding:15px 5px;
+
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.searchCity_hot li a{
+  color:#a9a9a9;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.searchCity_hot li a:hover{
+  color:#f25618;
+}
+/* A-Z*/
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap div.capital-wrap {
+  margin-bottom:15px;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap div.capital-wrap span:hover{
+   border-bottom:2px solid #ddd;
+/*   cursor:pointer;*/
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap div.capital-wrap span{
+ 
+  cursor:pointer;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap div.capital-wrap span a{
+  color:#838383;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.cities-wrap{
+  display:none;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap {
+  position:relative;
+}
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.current{
+  display:block;
+ }
+ div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.cities_wrap  div.capital,div.cities span{
+   font-size:14px;
+   color:#676666;
+    padding-right:5px;
+    margin-bottom: 12px;
+	cursor:pointer;
+	margin-right:15px;
+	margin-bottom:12px;
+	display:inline-block;
+	/* float:right; */
+	text-align:left;
+ }
+div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap  div.capital{
+   color:#676666;
+   float:left;
+   width:30px;
+  
+  }
+ 
+  div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap  div.cities span:hover{
+    color:#f25618;
+  }
+  div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap ul.cities-wrap li{
+     margin-top:20px;
+  }
+  div.header_index  div.city_selector  div.select_wrap div.searchCity_wrap div.capital-wrap span.current
+ /*  ������ */
+ div.header_index{
+   position:relative;
+ }
+div.header_index ul.nav{
+    position:absolute;
+   left:350px;
+	top:0px;
+    width:70%;
+	height:70px;
+ }
+ div.header_index ul.nav li{
+     float:left;
+	 height:70px;
+	 font-size:17px;
+/*	 line-height:70px;*/
+	 width:12%;
+	 margin:20px auto;
+/*	 padding:0 20px;*/
+    text-align:center;
+ }
+ div.header_index ul.nav li a{
+	color:#4c4c4c; 
+padding-right:10px;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+div.header_index ul.nav li a:hover{
+  color:#ff9900;
+}
+div.header_index div.pet_school{
+  position:absolute;
+  top:12px;
+  right:20px;
+ color:#676767;
+ font-size:17px;
+ z-index:999;
+ 
+}
+div.header_index div.pet_school span{
+  display:inline-block;
+  width:127px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  cursor:pointer;
+  margin-left:5px;
+}
+div.header_index div.pet_school span i{
+  border:7px solid transparent;
+  border-top-color:#ddd;
+  display:inline-block;
+position:relative;
+ left:5px;
+ top:5px;
+}
+div.header_index div.pet_school:hover i{
+  border-color:transparent;
+  border-bottom-color:#ddd;
+  position:relative;
+  top:-5px;
+}
+div.header_index div.pet_school:hover ul{
+  display:block;
+}
+div.header_index div.pet_school ul{
+  display:none;
+}
+div.header_index div.pet_school ul li a{
+  color:#676767;
+}
+div.header_index div.pet_school li{
+  width:100%;
+  height:40px;
+  background:#fff;
+  text-align:center;
+  line-height:40px;
+}
+div.header_index div.pet_school ul li:hover{
+  background:#ddd;
+}
+/*ul.current{*/
+/*  display:block;*/
+/*}*/
+ 

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/productsearch.css">
+ </head>
+ <body>
+   <div id="main">
+     <!--头部 -->
+     <div id="header" style="height:50px;">
+	      <div class="welcome">欢迎回来超级管理员</div> 
+		  <div class="super_father">
+		     <div class="super">超级管理员</div>
+		     <ul class="super_main">
+		     <li><a href="">基本信息</a></li>
+			 <li><a href="">用户设置</a></li>
+			 <li><a href="">使用说明</a></li>
+		   </ul>
+		  </div>
+		  <div class="sigout"><a>注销</a></div>
+	 </div>
+	 <div class="main_body">
+	   <div class="list">
+	     <div><img src="" alt="">淘汪网后台</div>
+	     <div><a href="">后台首页</a></div>
+		 <div class="data">数据管理</div>
+			 <ul>
+			   <li>
+			     <span >商品管理</span>
+				 <ul>
+				   <li><a href="productlist.html">商品列表</a></li>
+				   <li><a href="productsearch.html">多条件搜素</a></li>
+				   <li><a href="productadd.html">添加商品</a></li>
+				 </ul>
+			   </li>
+			   <li>
+			       <span>用户管理</span>
+				   <ul>
+					 <li><a href="">用户列表</a></li>
+					 <li><a href="">用户检索</a></li>
+				   </ul>
+			   </li>
+			   <li>
+			     <span>订单管理</span>
+				 <ul>
+					<li><a href="">订单列表</a></li>
+					<li><a href="">搜索订单</a></li>
+				 </ul>
+			   </li>
+			 </ul>
+		 <div class="content">内容管理</div>
+			 <ul>
+			   <li>
+			     <span>首页商品管理</span>
+				 <ul>
+				   <li><a href="">轮播广告</a></li>
+				   <li><a href="">首页推荐</a></li>
+				   <li><a href="">最新上架</a></li>
+				   <li><a href="">热销单品</a></li>
+				 </ul>
+			   </li>
+			   <li>
+			     <span>功能页面</span>
+				 <ul>
+				   <li><a href="">403错误页面</a></li>
+				   <li><a href="">404错误页面</a></li>
+				   <li><a href="">500错误页面</a></li>
+				 </ul>
+			   </li>
+			</ul>
+	   </div>
+	   <div class="search_body">
+	    <div class="search_top">
+			 <div class="search_input">
+			  <p>请输入关键字: <input type="text" id="key" placeholder="请输入关键字"></p>
+			  <p>请输入最低价: <input type="number" id="low" placeholder="请输入最低价格"></p>
+			  <p>请输入最高价: <input type="number" id="high" placeholder="请输入最高价格"></p>
+			  <p><button value="搜索" id="search_btn">搜索</button></p>
+			 </div>
+			 <div class="pageList">
+			  每页显示的条数：
+			   <select name="" id="pages">
+				 <option value="10">8</option>
+				 <option value="11">9</option>
+			   </select>
+			 </div>
+	     </div>
+	    <div class="search_list">
+		  <div class="show">
+			 <div class="toptitle">
+			  <span class="small"><input type="checkbox" id="all_checked">全选</span>
+			  <span class="sid small" >编号</span>
+			  <span class="dog_kinds big">犬种</span>
+			  <span class="title big">标题</span>
+			  <span class="location middle">商家</span>
+			  <span class="year middle">商家资历</span>
+			  <span class="price small" >价格</span>
+			  <span class="manipulate middle" >操作</span>
+			 </div>
+			 <div class="bottom_show">
+			 </div>
+			 <ul class="pages"></ul>
+		</div>
+		
+		
+		</div>
+	   </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<!-- <script src="js/productlist.js"></script> -->
+<script src="js/productsearch.js"></script>
+ </body>
+</html>

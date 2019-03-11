@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>养护中心</title>
+	<style>
+	   div.btn>button{
+	    width:100px;
+		height:40px;
+		border-radius:10px;
+		font-size:18px;
+		margin-left:20px;
+		cursor:pointer;
+	   }
+	   div.btn>button:hover{
+	     color:#f25618;
+	   }
+	   div.btn{
+	     width:300px;
+		 height:40px;
+		 margin:10px auto;
+     
+	   }
+	   .ad{
+	     position:absolute;
+		 top:50%;
+		 left:50%;
+		margin-top:-150px;
+		margin-left:-200px;
+		display:none;
+	   }
+	   video{
+	    text-align:center;
+	   }
+	   div.container{
+	     width:1000px;
+		 height:600px;
+		 margin:10px auto;
+		 position:relative;
+		 min-width:1000px;
+        max-width:1200px;
+	   }
+	   a.ctrl>img{
+	     position:absolute;
+		 top:50%;
+		 left:50%;
+		 margin-top:-50px;
+		 margin-left:-50px;
+		 z-index:10;
+		
+	   }
+	</style>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <video src="yh.mp4" muted width="1000" height="600"  loop  autoplay id="video" style="margin:auto;">
+            <source src="yh.mp4">
+            <source src="yh.ogg">
+            <source src="yh.webm">
+            您的浏览器版本太低，请升级!!!
+        </video>
+		<img src="img/ad.jpg" alt=""  class="ad">
+		<a href="" class="ctrl"  style="display:none"><img src="img/play.png" alt=""></a>
+    </div>
+	<div class="btn">
+	  <button id="start">播放</button> 
+	  <button id="stop">暂停</button>
+	</div>
+	
+	
+	<div id="footer"></div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/yh.js"></script>
+</body>
+</html>

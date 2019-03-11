@@ -1,0 +1,40 @@
+       .upload-awrp {
+			overflow: hidden;
+			margin: 120px 0;
+		}
+		
+		#login #check-code .code {
+			font-family: Arial;
+			font-style: italic;
+			font-size: 30px;
+			border: 0;
+			padding: 2px 3px;
+			letter-spacing: 3px;
+			font-weight: bolder;
+			float: left;
+			cursor: pointer;
+			width: 130px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			vertical-align: middle;
+			border: 1px solid #6D6D72;
+		margin-left:50px;
+	margin-top:10px;
+		}
+		#login #check-code .code+p.change{
+		position:relative;
+		width:150px;
+		font-size:15px;
+		margin-left:50px;
+		margin-top:20px;
+		}
+		#login #check-code>input{
+		  width:250px;
+		  height:40px;
+		  position:relative;
+		  left:10px;
+		  top:10px;
+		  font-size:20px;
+		  padding-left:5px;
+		}

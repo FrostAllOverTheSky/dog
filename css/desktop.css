@@ -1,0 +1,162 @@
+body>div>div>a{color:#ca1a1a;}	
+/*主体内容最外层div*/
+#desktop{
+	width:70%;
+	min-width:1200px;
+	margin: 0 auto;
+}
+/*主体内容里边div*/
+#desktop>div{
+	width:100%;
+	min-width:1200px;
+	margin: 0 auto;
+}
+/*导航标题*/
+#desktop>div:nth-child(1){
+	height:60px;
+	line-height:60px;
+	border-bottom:1px solid #d8c8c8;
+}
+/*发表文章*/
+.text_a{
+	margin-left:76%;
+	color:#0f8ae4;
+}
+/*主体内容下的两大块儿*/
+#bodys{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-betwwen;
+}
+#bodys>div{
+	vertical-align:top;
+	box-sizing:border-box;
+	display: inline-block;
+}
+#bodys>div:nth-child(1){
+	width: 74%;
+}
+#bodys>div:nth-child(2){
+	width: 26%;
+}
+/*文图内容*/
+.titles{
+	width:100%;
+	padding:14px 0;
+}
+.titles>div:first-child{
+	min-width:200px;
+	width:26%;
+}
+.titles>div:last-child{
+	min-width:531px;
+	width:73%;
+}
+.titles>div{
+	vertical-align:top;
+}
+.titles>div{
+	display:inline-block;
+	box-sizing:border-box;
+}
+.titles>div>div:nth-child(1){
+	font-size:22px;
+}
+.titles>div>div:nth-child(1) a{
+	color:#ff5d0c;
+}
+.titles>div>div:nth-child(2){
+	margin-top: 30px;
+}
+.titles>div>div:nth-child(3){
+	font-size:13px;
+	margin-top: 25px;
+	color:#501212;
+}
+.titles>div>div:nth-child(3)>span{
+	margin-left:15px;
+	
+}
+/*******热门宠物*******/
+#bodys>div:nth-child(2)>h3{
+	text-align:center;
+	color:#d83710;
+	height:50px;line-height:50px;
+	border-bottom: 1px solid #f5dfcc;
+	margin-bottom:10px;	
+}
+/*******热门宠物列表项***********/
+#favourite>div>div{
+	display: inline-block;
+	font-size:13px;
+	vertical-align:top;
+	
+}
+#favourite>div{margin-bottom:10px;}
+#favourite>div>div>div:first-child{
+	margin:10px 0 5px 0;
+}
+#favourite>div>div>div:last-child{
+	margin:10px 0 0 0;
+}
+#favourite>div>div:last-child{
+	margin-left: 18px;	
+}
+#favourite>div:nth-child(2){
+	background:#FFE7E5;
+	color:#e8518f;
+	
+}
+#favourite>div:nth-child(3){
+	background:#7aceff;
+	color:#1378e4;
+	
+}
+#favourite>div:nth-child(4){
+	background:#fff1ae;
+	color:#ff902e;
+	
+}
+#favourite>div:nth-child(5){
+	background:#e7dbff;
+	color:#a5308b;
+	
+}
+#favourite>div:nth-child(6){
+	background:#FFE7E5;
+	color:#e8518f;
+	
+}
+#favourite>div>div>div>a{
+	color:#cd6e23;	
+	margin-right:4px;
+
+}
+/*****人们文章*****/
+#wen-title>li{
+	border-bottom:1px solid #efd7d7;
+	padding:6px 0 6px 0;
+}
+#wen-title>li div{
+	vertical-align:top;
+	display:inline-block;
+}
+#wen-title>li>div:nth-child(1)>img{
+	width:100px;
+	height: 80px;
+}
+#wen-title>li>div:nth-child(1){
+	width: 33%;
+}
+#wen-title>li>div:nth-child(2){
+	width: 65%;
+}
+#wen-title>li>div>p>a{
+	color:#ea1010;
+}
+#wen-title>li>div>p{
+	margin-bottom: 20px;
+}
+#wen-title>li>div:nth-child(2)>div{
+	color:#0985f3;font-size:14px;
+}

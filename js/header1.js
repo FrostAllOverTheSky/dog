@@ -1,0 +1,38 @@
+$(function(){
+  $.ajax({
+    type:"get",
+	url:"php/islogin.php",
+	dataType:"json",
+	success:function(res){
+		console.log(res.ok);
+	  if(res.ok==0){
+        console.log(res.ok);
+	    $("#login").show();
+		$("#register_sort").show();
+		$("#signout").hide();
+	  }else{
+	    var uname=res.uname;
+        console.log(res.ok);
+	    $("#login").hide();
+		$("#register_sort").hide();
+		$("#signout").show();
+		//µ¼º½À¸Ãû×Ö¸ü»»
+        $("div.header_top>span.title>a>span").html(uname);
+	  }
+	}
+  });
+  $("#login>a").click(function(e){
+	 e.preventDefault();
+    location.href="login.html?back="+location.href 
+  });
+   $("#signout>a").click(function(e){
+	 e.preventDefault();
+     $.ajax({
+	    type:"get",
+		url:"php/signout.php",
+		success:function(){
+		   location.reload(true);
+		}
+	 }) 
+  })
+});

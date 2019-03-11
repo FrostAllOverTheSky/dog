@@ -1,0 +1,333 @@
+#main{
+  width:80%;
+/*  text-align:center;*/
+margin:0px auto;
+min-width:1200px;
+}
+#main>div.current_page{
+  width:100%;
+  height:40px;
+/*  background:red;*/
+  font-size:18px;
+  line-height:40px;
+  padding-left:20px;
+}
+#main>div.current_page>span:first-child>a{
+  color:black;
+  font-weight:bold;
+}
+div.main_body{
+  width:100%;
+/*  border:1px solid #ddd;*/
+/*  background:#fff;*/
+min-width:1000px;
+}
+div.main_body>div.dog_detail{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+	width:100%;
+    height:650px;
+	position:relative;
+	background:#fff;
+	min-width:1000px;
+}
+div.main_body>div.dog_detail>div.preview{
+  width:600px;
+float:left;
+}
+div.main_body>div.dog_detail>div.preview>#mediumDiv{
+  width:600px;
+  height:450px;
+  border:1px solid #ddd;
+  margin-bottom: 5px;
+  text-align:center;
+  position: relative;
+}
+div.main_body>div.dog_detail>div.preview>#mediumDiv img{
+     width:600px;
+     vertical-align:middle;
+     height:450px;
+ }
+  div.main_body>div.dog_detail>div.preview>#mediumDiv>#mask{
+     position:absolute;
+     width:300px;
+     height:225px;
+     background: #ffa;
+     opacity: 0.5;
+     top: 0;
+     left: 0;
+    display:none;
+ }
+div.main_body>div.dog_detail>div.preview>#mediumDiv>#superMask{
+     position: absolute;
+     width:600px ;
+     height: 450px;
+     opacity: 0;
+     top: 0;
+     left: 0;
+     cursor: move;
+ }
+ div.main_body>div.dog_detail>div.preview>#largeDiv{
+     position: absolute;
+     width: 650px;
+     height: 500px;
+     background: #fff;
+ border: 1px solid #ddd;
+     top: 0;
+     left: 710px;
+     z-index: 999;
+  display: none;
+   background-repeat:no-repeat;
+ }
+ div.main_body>div.dog_detail>div.preview h1{
+     height: 180px;
+     overflow:hidden;
+     padding: 0px;
+     position:relative;
+ }
+div.main_body>div.dog_detail>div.preview a.backward,div.main_body>div.dog_detail>div.preview a.forward{
+     width: 30px;
+     height: 180px;
+     background-image: url(../img/iconlist_1.png);
+     background-repeat: no-repeat;
+     display:block;
+     z-index:20;
+     position:absolute;
+     top:0px;
+ }
+div.main_body>div.dog_detail>div.preview a.backward{
+     left:0px;
+ }
+ div.main_body>div.dog_detail>div.preview a.forward{
+     right:0px;
+ }
+div.main_body>div.dog_detail>div.preview #icon_list {
+     height: 150px;
+     position:absolute;
+     left: 20px;
+     top: 0px;
+     transition:all .5s linear;
+	 margin-top:20px;
+ }
+ div.main_body>div.dog_detail>div.preview #icon_list li {
+     width: 180px;
+     text-align: center;
+     float: left;
+	 margin-left:10px;
+ }
+
+ div.main_body>div.dog_detail>div.preview #icon_list li img {
+     width: 180px;
+     height: 150px;
+     padding: 1px;
+     border: 1px solid #CECFCE;
+ }
+ div.main_body>div.dog_detail>div.preview #icon_list li img:hover {
+     border: 2px solid #e4393c;
+     padding: 0;
+ }
+div.main_body>div.dog_detail>div.show-detail{
+  width:48%;
+ float:left;
+}
+div.main_body>div.dog_detail>div.show-detail>div.title{
+  font-size:22px;
+  margin-top:20px;
+  height:30px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.location{
+  position:absolute;
+  top:70px;
+  right:10px;
+  font-size:18px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.price{
+height:30px;
+font-size:19px;
+margin-top:20px;
+font-weight:bold;
+}
+div.main_body>div.dog_detail>div.show-detail>div.price>span{
+  color:red;
+  font-size:24px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.prodect{
+  height:20px;
+  font-size:16px;
+  margin-top:20px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.prodect>img{
+  width:300px;
+   height:20px;
+  background:red;
+}
+div.main_body>div.dog_detail>div.show-detail>div.prodect>span{
+ font-weight:bold;
+}
+div.main_body>div.dog_detail>div.show-detail>ul.details{
+  height:150px;
+  margin-top:20px;
+}
+div.main_body>div.dog_detail>div.show-detail>ul.details>li{
+  height:100px;
+  float:left;
+  width:180px;
+  text-align:center;
+ padding-top:30px;
+ box-sizing:border-box;
+ font-size:18px;
+ border-right:1px solid #ddd;
+ margin-top:30px;
+}
+div.main_body>div.dog_detail>div.show-detail>ul.details>li:last-child{
+  border:none;
+}
+div.main_body>div.dog_detail>div.show-detail>div.contact{
+  height:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.contact>span{
+  color:red;
+  border:1px solid red;
+  display:inline-block;
+  margin-left:20px;
+ 
+}
+div.main_body>div.dog_detail>div.show-detail>div.prodect>span>span.star{
+  width:30px;
+  height:20px;
+  display:inline-block;
+  background:url("../img/dog_select/sprite.png") no-repeat -193px -25px;
+  position:relative;
+  top:5px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq{
+   margin-left:20px;
+    margin-top:20px;
+	width:200px;
+    height:30px;
+
+ margin-bottom:20px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq>a>span{
+   display:inline-block;
+   width:90px;
+   height:30px; 
+   background:red;
+   background:url(../img/dog_select/sprite.png) no-repeat  -76px 0;
+   position:relative;
+   top:13px;
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq+div>a{
+   display:inline-block;
+   width:200px;
+   height:40px;
+   text-align:center;
+    margin-top:20px;
+	color:#fff;
+	line-height:40px;
+	border-radius:5px;
+	cursor:pointer;
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq+div>a:first-child{
+  background:red;
+ 
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq+div>a:first-child>span{
+  width:100px;
+  height:40px;
+   display:inline-block;
+  background:url(../img/dog_select/sprite.png) no-repeat -76px 0;
+}
+div.main_body>div.dog_detail>div.show-detail>div.qq+div>a:last-child{
+  background:green;
+  margin-left:20px;
+}
+div.main_body>div.dog_detail>div.show-detail > div.detail_img{
+  width:250px;
+  height:210px;
+ float:right;
+ position:relative;
+top:-100px;
+}
+div.main_body>div.comment{
+  width:100%;
+  height:400px;
+  background:#fff;
+  margin-top:30px;
+}
+div.main_body>div.comment>div.title{
+  height:50px;
+  line-height:50px;
+  border-bottom:1px solid #ddd;
+}
+div.main_body>div.comment>div.title>span{
+    width:100px;
+    height:50px;
+ display:inline-block;
+ text-align:center;
+  border-bottom:2px solid red;
+  color:red;
+}
+div.main_body>div.comment>div.bottom{
+  height:350px;
+ 
+  position:relative;
+}
+div.main_body>div.comment>div.bottom>div.desc{
+  width:40%;
+  height:350px;
+  margin-left:20px;
+ 
+}
+div.main_body>div.comment>div.bottom>div.desc>ul>li{
+  height:30px;
+  width:300px;
+  margin-top:10px;
+  line-height:30px;
+   font-size:18px;
+}
+div.main_body>div.comment>div.bottom>div.desc>ul>li>span{
+  color:#7E7E7E;
+ font-size:20px;
+}
+div.main_body>div.comment>div.bottom>div.desc>ul>li:first-child,div.main_body>div.comment>div.bottom>div.paw>ul:first-child>li:first-child{
+  font-size:22px;
+  height:50px;
+  line-height:50px;
+}
+div.main_body>div.comment>div.bottom>div.paw{
+  width:59%;
+  height:350px;
+ position:absolute;
+ right:0;
+ top:0;
+ 
+}
+div.main_body>div.comment>div.bottom>div.paw>ul{
+ width:50%;
+ height:100%;
+ float:left;
+}
+div.main_body>div.comment>div.bottom>div.paw>ul>li{
+  height:30px;
+  font-size:18px;
+  margin-top:10px;
+}
+div.main_body>div.comment>div.bottom>div.paw>ul:first-child>li{
+   margin-top:15px;
+}
+div.main_body>div.comment>div.bottom>div.paw>ul:last-child{
+  margin-top:55px;
+}
+div.main_body>div.comment>div.bottom>div.paw>ul:last-child>li:not(:last-child){
+    margin-top:20px;
+}
+div.main_body>div.sh{
+  width:100%;
+  height:500px;
+  margin-top:30px;
+  background:#fff;
+}

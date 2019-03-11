@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加商品</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/productadd.css">
+</head>
+<body>
+<div id="main">
+    <!--头部 -->
+    <div id="header" style="height:50px;">
+        <div class="welcome">欢迎回来超级管理员</div>
+        <div class="super_father">
+            <div class="super">超级管理员</div>
+            <ul class="super_main">
+                <li><a href="">基本信息</a></li>
+                <li><a href="">用户设置</a></li>
+                <li><a href="">使用说明</a></li>
+            </ul>
+        </div>
+        <div class="sigout"><a>注销</a></div>
+    </div>
+    <div class="main_body">
+        <div class="list">
+            <div><img src="" alt="">淘汪网后台</div>
+            <div><a href="">后台首页</a></div>
+            <div class="data">数据管理</div>
+            <ul>
+                <li>
+                    <span >商品管理</span>
+                    <ul>
+                        <li><a href="productlist.html">商品列表</a></li>
+                        <li><a href="">多条件搜素</a></li>
+                        <li><a href="productadd.html">添加商品</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>用户管理</span>
+                    <ul>
+                        <li><a href="">用户列表</a></li>
+                        <li><a href="">用户检索</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>订单管理</span>
+                    <ul>
+                        <li><a href="">订单列表</a></li>
+                        <li><a href="">搜索订单</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="content">内容管理</div>
+            <ul>
+                <li>
+                    <span>首页商品管理</span>
+                    <ul>
+                        <li><a href="">轮播广告</a></li>
+                        <li><a href="">首页推荐</a></li>
+                        <li><a href="">最新上架</a></li>
+                        <li><a href="">热销单品</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>功能页面</span>
+                    <ul>
+                        <li><a href="">403错误页面</a></li>
+                        <li><a href="">404错误页面</a></li>
+                        <li><a href="">500错误页面</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="addProduct">
+            <div class="title">添加新的狗狗</div>
+            <form action="" id="form1">
+                <div>
+                    <div>狗狗品种: <input type="text" name="dog_kinds" required></div>
+                    <div>狗狗标题: <input type="text" name="title" required></div>
+                    <div>商家名称: <input type="text" name="location" required></div>
+                    <div>商家资历: <input type="text" name="year" required></div>
+                    <div>狗狗价格: <input type="text" name="price" required></div>
+					<div>小图片1: <input type="text" name="simg_1"></div>
+                    <div>小图片2: <input type="text" name="simg_2"></div>
+                    <div>小图片3: <input type="text" name="simg_3"></div>
+                    <div>中图片1: <input type="text" name="bImg_1"></div>
+                    <div>中图片2: <input type="text" name="bImg_2"></div>
+                   <div>中图片3: <input type="text" name="bImg_3"></div>
+                   <div><button id="btn_submit">提交</button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/productadd.js"></script>
+</body>
+</html>

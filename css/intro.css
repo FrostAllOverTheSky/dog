@@ -1,0 +1,245 @@
+body{
+	background-color:#fff;
+}
+#intro{
+	width:1000px;
+	margin:0 auto;
+}
+div.ggbk_dz{
+	height:40px;
+	line-height:40px;
+	font-size:13px;
+	color:#666;
+	margin-top:10px;
+	border-bottom:1px solid #9D9D9D; 
+}
+div.ggbk_nav{
+	border-bottom:1px solid #9D9D9D;
+}
+#intro>div.ggbk_nav>a{
+	display:inline-block;
+	padding:12px 0;
+	margin-right:24px;
+	font-size:18px;
+	color:#000;
+	border-bottom:2px solid #fff;
+}
+#intro>div.ggbk_nav>a:hover{
+	color:#ff552e;
+	border-bottom:2px solid #ff552e;
+}
+.xddw{
+	position:relative;
+}
+.jddw{
+	position:absolute;
+}
+/*详情页轮播图*/
+#min_banner{
+	width:310px;
+	height:440px;
+}
+#min_banner>img{
+	opacity: 0;
+	width:0px;
+	height:0px;
+	transition:all .5s linear;
+}
+#min_banner>img.in{
+	opacity:1;
+	width:320px;
+	height:450px;
+}
+/*右边详情基本资料*/
+#breed{
+	margin-top:25px;
+}
+#breed>h1.breed_dogname+span{
+	color:#ff552e;
+	font-weight:800;
+	width:649px;
+	margin:20px 0 10px;
+	display:block;
+}
+#breed>h5{ 
+	color:#999;
+	margin-bottom:8px;
+	display:inline-block;
+	font-size:14px;
+}
+/*狗狗的基本资料*/
+#breed>table.breed_js,#breed>table.breed_cd{
+	border-collapse:collapse;
+	/*text-align:center;*/
+	/*vertical-align:hidden;*/
+	width:600px;
+	height:120px;
+}
+#breed>table.breed_js>tr{
+	height:30px;
+	line-height:30px;
+}
+#breed>table.breed_js tr td{
+	color:#666;
+}
+#breed>table.breed_js tr td:nth-child(2n){
+	color:#000;
+}
+/*狗狗的评价程度*/
+#breed>table.breed_cd tr td span{
+	background-image:url("../img/intro/breed_images.png"); 
+	background-repeat:no-repeat;
+	display:inline-block;
+	width:125px;
+	height:26px;
+	vertical-align:middle;
+}
+#breed>table.breed_cd tr td{
+	font-size:14px;
+	color:#666;
+}
+span.cd1{background-position:-195px -320px;}
+span.cd2{background-position:-195px -240px;}
+span.cd3{background-position:-195px -280px;}
+span.cd4{background-position:-195px -400px;}
+span.cd5{background-position:-195px -280px;}
+span.cd6{background-position:-195px -360px;}
+span.cd7{background-position:-195px -440px;}
+span.cd8{background-position:-195px -240px;}
+span.cd9{background-position:-195px -320px;}
+span.cd10{background-position:-195px -240px;}
+span.cd11{background-position:-195px -280px;}
+span.cd12{background-position:-195px -320px;}
+/*hover 身体部位*/
+#breed>ul.breed_bw{
+	width:600px;
+	height:70px;
+	/*border:1px solid red;*/
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+#breed>ul.breed_bw>li:hover{
+	background-color:#ff552e;
+	background-image:none;
+}
+#breed>ul.breed_bw>li{
+	display:block;
+	width:90px;
+	height:30px;
+	/*border:1px solid red;*/
+	text-align:center;
+	line-height:30px;
+	background:url("../img/intro/breed_images.png") no-repeat 0px -345px;
+}
+#breed>.breed_bw_js1{
+	width:596px;
+	height:120px;
+	border:2px solid #ff552e;
+	font-size:14px;
+	background-color:#fff;
+	display: none;
+	
+z}
+#breed>.breed_bw_js1>img{
+	margin:10px;
+	vertical-align:top;
+}
+#breed>.breed_bw_js1>span{
+display:inline-block;
+	width:460px;
+	height:100px;
+	margin-top:10px;
+}
+/*****************下半部分的nav*********************/
+ul.breed_title{
+	margin-top:15px;
+	width:100%;
+	display:block;
+}
+ul.breed_title>li{
+	float:left;
+	width:140px;
+	height:50px;
+	font-size:18px;
+	background-color:#f8f8f8;
+	text-align:center;
+	line-height:50px;
+	vertical-align:middle;
+	border-top:2px solid transparent;
+	z-index:1000;
+}
+ul.breed_title>li>span:first-child{
+	background-image:url("../img/intro/breed_images.png");
+	display:inline-block;
+	background-repeat:no-repeat;
+	width:22px;
+	height:22px;
+	margin-right:3px;
+	vertical-align:middle;
+}
+ul.breed_title>li>span.titl1{background-position:-3px -408px}
+ul.breed_title>li>span.titl2{background-position:-3px -494px}
+ul.breed_title>li>span.titl3{background-position:-30px -408px}
+ul.breed_title>li>span.titl4{background-position:-56px -409px}
+ul.breed_title>li>span.titl5{background-position:-86px -408px}
+ul.breed_title>li>span.titl6{background-position:-118px -408px}
+ul.breed_title>li>span.titl7{background-position:-146px -408px}
+/*点击事件*/
+ul.breed_title>li.ocin{
+	 /*top:-384px;*/
+	 color:#ff552e;
+	 border-top:2px solid #ff552e;
+	 background:#fff;
+	 /*top:24px;*/
+}
+/*点击事件*/
+/******************下半部分的文字描述*********/
+/*楼层滚动点亮效果*/
+.breed_floors{
+	background-color:#ff552e;
+	color:#fff;
+}
+ul.breed_intro>li.intro1>div:first-child{
+	width:85px;
+	height:120px;
+	margin-top:45px;
+	opacity:0;
+	position:fixed;
+	top:35%;	
+}
+ul.breed_intro>li.intro1>div:first-child>a{
+	width:85px;
+	height:25px;
+	margin-bottom:5px;
+	display:inline-block;
+	border:1px solid #000;
+	text-align:center;
+	line-height:25px;
+	color:#000;
+	font-size:14px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+ul.breed_intro>li>div:last-child>h2>span{
+	color:#ff552e;
+}
+ul.breed_intro>li>div:last-child>h2{
+	margin:20px 0px;
+}
+ul.breed_intro>li>div:last-child{
+	width:800px;
+	margin-left:145px;
+	margin-top:20px;
+	height:1210px;
+	margin-bottom:250px;
+}
+ul.breed_intro>li.intro1>div:last-child{
+	margin-top:20px
+	width:800px;
+}
+
+
+
+

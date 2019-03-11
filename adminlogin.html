@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>管理员登录</title>
+  <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/yanzhengma.css">
+  <link rel="stylesheet" href="css/adminlogin.css">	
+ </head>
+ <body>
+ <div id="main">
+   <div id="header" style="">
+     <marquee behavior="scroll" scrollamount="8" bgcolor="#f25618" width="100%" height="100px" style="font-size:24px;line-height:100px;color:#fff" onmouseover=this.stop() onmouseout=this.start()>欢迎管理员登录宠物销售商城-淘汪网</marquee>
+   </div>
+   <div class="adminForm">
+	   <form action="">
+		 <p>管理员名称: <input type="text" placeholder="请输入管理员名称" id="uname" required autofocus></p>	
+		 <p>管理员密码: <input type="password" placeholder="请输入管理员密码" id="upwd"></p>
+		 <div id="check-code" >
+				<input type="text" placeholder="请输入验证码" id="yzm">
+				<div class="code" id="data_code"></div>
+				<p class="change">点击图片更换验证码</p>
+		</div>
+		<p><input type="button" value="登录" id="btn"></p>
+	   </form>
+   </div>
+   <div id="label"><img src="img/login/1.png" alt=""></div>
+   <div id="footer"></div>
+ </div>
+ <script src="js/jquery-1.11.3.js"></script>
+<script src="js/yanzhengma.js"></script>
+<script src="js/adminlogin.js"></script>	
+ </body>
+</html>

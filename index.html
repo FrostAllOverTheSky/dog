@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>首页</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <style>
+  </style>
+ </head>
+ <body>
+ <div id="header">
+	</div>
+  <div id="main">
+    <!--头部 -->
+	<div class="banner">
+     <div class="slider">
+		<a href="" class="show"><img src="img/index/banner1.jpg" alt=""></a>
+		<a href=""><img src="img/index/banner2.jpg" alt=""></a>
+		<a href=""><img src="img/index/banner3.jpg" alt=""></a>
+		<a href=""><img src="img/index/banner4.jpg" alt=""></a>
+     </div>
+	  <div id="search">
+			 <ul id="tab" >
+				<li>
+				  <a href="#content1" data-toggle="tabs">找宠物
+				  </a>
+				  <div class="anggle1" ></div>
+				</li>
+				<li>
+				  <a href="#content2" data-toggle="tabs" >找店铺
+				  </a>
+				  <div class="anggle2"></div>
+			   </li>
+			 </ul>
+             <!--建议列表 -->
+			 <datalist id="dog1">
+			   <option label="小型犬">斗牛</option>	
+			   <option label="小型犬">泰迪</option>
+			   <option label="小型犬">吉娃娃</option>
+			   <option  label="小型犬">比熊犬</option>
+			   <option label="小型犬">柯基</option>
+			   <option label="大型犬">萨摩耶</option>
+			   <option  label="小型犬">博美</option>
+			 </datalist>
+			 <div id="container" >
+			   <div id="content1">
+				 <input type="text" placeholder="输入宠物名称或关键字" list="dog1">
+				 <a href="javascript:"><img src="img/index/search.png" alt=""></a>
+			   </div>
+			   <div id="content2">
+				 <input type="text" placeholder="请输入店铺名称或关键字" list="dog1">
+				 <a href=""><img src="img/index/search.png" alt=""></a>
+			   </div>
+			 </div>
+	  </div>
+    </div>
+	<div class="floor_list" style="display:none">
+     <!--<div class="line"><a href="#top"><img src="img/index/line.jpg" alt=""></a></div> -->
+		<ul class="floor_ul">
+			<li>狗狗测试</li>
+			<li>热门狗狗</li>
+			<li>优狗推荐</li>
+			<li>新闻资讯</li>
+			<li>养护中心</li>
+		</ul>
+    </div>
+	
+   <!--主体部分 -->
+	<div class="main_body ">
+	  <!--狗狗体检等列表-->
+       <ul class="section1_test  clear" data-toggle="floor">
+	    <li>
+		    <img src="img/index/one.png" alt="">
+		    <p><a href="">狗狗体检</a></p>
+		    <p>狗狗疾病早知道</p>
+		 </li>
+	    <li>
+		    <img src="img/index/tow.png" alt="">
+					 <p><a href="">性格测试</a></p>
+					 <p>洞察狗狗真性情</p>
+	   	</li>
+	    <li>
+		    <img src="img/index/three.png">
+		    <p><a href="">狗龄换算</a></p>
+		    <p>狗龄人龄快换算</p>
+		   </li>
+	    <li>
+		    <img src="img/index/four.png" alt="">
+		    <p><a href="">智商测试</a></p>
+		    <p>狗狗智商你来测</p>
+		   </li>
+	   </ul>
+      <!--热门狗狗 -->
+	  <div class="section2_hotDog  clear" data-toggle="floor">
+	    <div class="title clear">热门狗狗</div>
+	    <ul class="hotDog_list clear">
+		    <li>
+			    <div><img src="img/index/10.jpg" alt=""></div>
+			    <p><a href="">泰迪犬</a></p>
+		   	</li>
+		    <li>
+			    <div><img src="img/index/7.jpg" alt=""></div>
+			    <p><a href="">金毛犬</a></p>
+			   </li>
+		    <li>
+			    <div><img src="img/index/1.jpg" alt=""></div>
+			    <p><a href="">比熊犬</a></p>
+		   	</li>
+		    <li>
+			    <div><img src="img/index/8.jpg" alt=""></div>
+			    <p><a href="">拉布拉多犬</a></p>
+			   </li>
+		    <li>
+			    <div><img src="img/index/9.jpg" alt=""></div>
+			    <p><a href="">萨摩耶犬</a></p>
+			   </li>
+		    <li>
+			    <div><img src="img/index/3.jpg" alt=""></div>
+			    <p><a href="">博美犬</a></p>
+		    </li>
+		    <li>
+			    <div><img src="img/index/4.jpg" alt=""></div>
+			    <p><a href="">哈士奇犬</a></p>
+			   </li>
+		    <li>
+			    <div><img src="img/index/2.jpg" alt=""></div>
+			    <p class="last"><a href="">边境牧羊犬</a></p>
+			</li>
+		   </ul>
+				<div class="showMore clear">
+				  <a href="dog_select.html">查看更多>></a>
+				</div>
+				<div class="bottom "><img src="img/index/bottom.png" alt=""></div>
+	  </div>
+	  <div class="section3_greatDog "  data-toggle="floor">
+				<div class="title ">优狗推荐</div>
+				<ul class="list_dog">
+			    </ul>
+	           <div class="showMore ">
+		         <a href="commodity.html">查看更多>></a>
+	           </div>
+	   </div>
+	  <div class="section4_msgs clear" data-toggle="floor">
+		  <p class="title">
+			  <span>新闻<b style="font-weight:normal;">资讯</b></span>
+			  
+		  </p>
+		  <ul class="tabs">
+			  <li><a href="#d1" data-toggle="tab">今日焦点</a></li>
+			  <li><a href="#d2" data-toggle="tab">行业动态</a></li>
+			  <li><a href="#d3" data-toggle="tab">宠物新闻</a></li>
+			  <li><a href="#d4" data-toggle="tab">宠物店加盟指南</a></li>
+			  <li><a href="#d5" data-toggle="tab">美容训宠指南</a></li>
+		  </ul>
+		  <div id="focus" class="clear">
+			 <div id="d1">
+				  <div class="left">
+				  </div>
+				  <!--宠物资讯两张图  -->
+				  <div class="right">
+					  <div class="imgs">
+							  <ul>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+							  </ul>
+							  <span class="bg"></span>
+					  </div>
+				  </div>
+				  <p class="check"><a href="desktop.html">查 看 更 多  >  > </a></p>
+			  </div>
+			 <div id="d2">
+				  <div class="left">
+				 </div>
+				  <!--宠物资讯两张图  -->
+				  <div class="right">
+					  <div class="imgs">
+							  <ul>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+							  </ul>
+							  <span class="bg"></span>
+					  </div>
+				  </div>
+				  <p class="check"><a href="desktop.html">查 看 更 多  >  > </a></p>
+			  </div>
+			 <div id="d3">
+				  <div class="left">
+				  </div>
+				  <!--宠物资讯两张图  -->
+				  <div class="right">
+					  <div class="imgs">
+							  <ul>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+							  </ul>
+							  <span class="bg"></span>
+					  </div>
+				  </div>
+				  <p class="check"><a href="desktop.html">查 看 更 多  >  > </a></p>
+			  </div>
+			 <div id="d4">
+				  <div class="left">
+				  </div>
+				  <!--宠物资讯两张图  -->
+				  <div class="right">
+					  <div class="imgs">
+							  <ul>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+							  </ul>
+							  <span class="bg"></span>
+					  </div>
+				  </div>
+				  <p class="check"><a href="">查 看 更 多  >  > </a></p>
+			  </div>
+			 <div id="d5">
+				  <div class="left">
+				  </div>
+				  <!--宠物资讯两张图  -->
+				  <div class="right">
+					  <div class="imgs">
+							  <ul>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+								  <li><span></span></li>
+							  </ul>
+							  <span class="bg"></span>
+					  </div>
+				  </div>
+				  <p class="check"><a href="desktop.html">查 看 更 多  >  > </a></p>
+			  </div>
+		  </div>
+	  </div>
+	  <div class="section5_yh clear" data-toggle="floor">
+					<div class="tp">
+						<div class="title">养护<span style="color:red;">中心</span></div>
+					
+					</div>
+					<div class="bt">
+						<div class="left">
+							<div class="title before">狗狗养护</div>
+							<div class="bt_hot">
+							  <a href=""><img src="img/index/yh1.jpg" alt=""></a>
+							  <div class="hot">
+								<div>狗狗中暑怎么办？</div>
+								<div>炎炎夏日，宠物主人们一定要有，狗狗也会中暑的认识,若是发生并处理...</div>
+								<div>2018-6-4</div>
+							   </div>		
+							</div>
+						 <div class="rf">
+<!-- 							 <a href="">	<img src="img/index/yh2.jpg" alt=""></a>  -->
+								<div>
+										<div>狗狗不听话，惩罚狗狗的方法？</div>
+										<div>如果人们认为用正向积极的方法训犬,狗狗是学不到东西的，必...</div>
+										<div style="color:#a7a7a7;">2018-6-4</div>
+							 </div>
+						 </div>
+						  <div class="list">
+								<ul>
+									 <li>
+									   <a href="">狗狗中暑怎么办？
+										 <span>2018-06-04</span>
+									   </a>
+									 </li>
+										<li>
+										  <a href="">狗狗不听话，惩罚狗狗的方法
+										  <span >2018-06-04 </span>
+										  </a>
+										 </li>
+										<li>
+										  <a href="">狗狗的眼睛是红色正常吗？
+											<span>2018-06-04</span>
+										  </a>
+										</li>
+										<li>
+										  <a href="">你不是宠物医生千万别给宠物乱吃药                 <span>2018-06-04</span>
+										  </a>
+										 </li>
+								</ul>
+								<ul>
+										<li>
+										  <a href="">夏天洗澡要注意什么？
+											<span>2018-06-04</span>
+										  </a>
+										 </li>
+										<li>
+										  <a href="">狗狗的七个洗澡要点你掌握了哪些？
+											<span>2018-06-04</span>
+										  </a>
+										</li>
+										<li>
+										  <a href="">狗狗讨厌的几种行为你做了吗？
+											<span>2018-06-04</span>
+										  </a>
+										</li>
+										<li>
+										  <a href="">怎样帮狗狗度过痛苦的磨牙期？
+											<span>2018-06-04</span>
+										  </a>
+										</li>
+								</ul>
+						 </div>
+						 <p class="clear check"><a href="yh.html" >&nbsp;查看更多>&nbsp;>&nbsp;</a></p>
+					 </div>
+					 <div class="right">
+							<div>狗狗百科</div>
+							<div>
+									<span><a href="">泰迪犬</a></span>
+									<span><a href="">金毛犬</a></span>
+									<span><a href="">比熊犬</a></span>
+						 </div>
+							<div>
+									<span><a href="">萨摩耶</a></span>
+									<span><a href="">博美犬</a></span>
+									<span><a href="">哈士奇</a></span>
+							</div>
+							<div>
+									<span><a href="">雪纳瑞</a></span>
+									<span><a href="">贵宾犬</a></span>
+									<span><a href="">柯基犬</a></span>
+							</div>
+							<div>
+									<span><a href="">阿拉斯加</a></span>
+									<span><a href="">斗牛犬</a></span>
+									<span><a href="">吉娃娃</a></span>
+							</div>
+							<div>
+									<span><a href="">秋田犬</a></span>
+									<span><a href="">拉布拉多</a></span>
+									<span><a href="">牧羊犬</a></span>
+							</div>
+						<p  class="check clear">	
+						  <a href="Dog_Slp.html" >查看更多&nbsp;>&nbsp;>&nbsp;</a>
+						</p>
+					 </div>
+					</div>
+	  </div>
+  
+   </div>
+    <div id="footer"></div>	
+  </div>
+  <script src="js/common.js"></script>
+  <script src="js/ajax.js"></script>
+   <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/index.js"></script>
+  
+  <script>
+    $(function(){
+	 $("#header").load("header.html");
+	 
+	});
+  </script>
+  <script>
+    $(function(){
+	 $("#footer").load("footer.html");
+	 
+	});
+  
+  </script>
+ </body>
+</html>
